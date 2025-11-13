@@ -644,7 +644,7 @@ trap ExitMenu EXIT
 
 export SDL_GAMECONTROLLERCONFIG_FILE="/opt/inttools/gamecontrollerdb.txt"
 pgrep -f gptokeyb | sudo xargs kill -9 2>/dev/null
-/opt/inttools/gptokeyb -1 "Swapsa.sh" -c "/opt/inttools/keys.gptk" > /dev/null 2>&1 &
+/opt/inttools/gptokeyb -1 "ZRam Manager.sh" -c "/opt/inttools/keys.gptk" > /dev/null 2>&1 &
 
 STATUS_INFO=$(CheckZramStatus)
 IFS='|' read -r STATUS SIZE ALGO USED <<< "$STATUS_INFO"
