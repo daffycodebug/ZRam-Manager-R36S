@@ -97,6 +97,10 @@ Choose based on your priority:
 - **Autostart Service**: `/etc/systemd/system/zram-swap.service`
 - **Startup Script**: `/usr/local/bin/zram-autostart.sh`
 
+## 📚 Resources
+
+- **[R36S Wiki - Performance Guide](https://r36swiki.com/wiki-performance.html)** - Detailed visual guide with screenshots and step-by-step instructions
+
 ## ❓ FAQ
 
 **Q: Will this wear out my SD card?**  
@@ -144,11 +148,13 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 If you encounter any problems or have questions:
 1. Check the FAQ above
 2. Review the troubleshooting section
-3. Open an issue on this repository
+3. Visit [R36S Wiki](https://r36swiki.com) for more guides
+4. Open an issue on this repository
 
 ## ⭐ Acknowledgments
 
 - Built for the R36S community
+- Documentation available at [R36S Wiki](https://r36swiki.com/wiki-performance.html)
 - Optimized for ArkOS AeUX
 - Inspired by the need for better performance on handheld devices
 
